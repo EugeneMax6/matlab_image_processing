@@ -57,3 +57,15 @@
 9.[PPT半成品](https://github.com/EugeneMax6/matlab_image_processing/blob/main/spatial_filtering/%E5%AE%9E%E9%AA%8C%E4%BA%8Cppt_%E5%8D%8A%E6%88%90%E5%93%81v2.pdf)
 
 成品忘记保存了 凑合一下
+
+### 三、频率域滤波和离散傅里叶变换
+
+使用MATLAB中的函数fft2，fftshift，ifft2实现一幅灰度图像（lena.bmp）从空域变换到频域。
+
+实现空域锐化滤波器和频域锐化滤波器对一幅灰度图像进行滤波处理。
+
+使用MATLAB中的函数hpfilter（），lpfilter（）分别调用理想低通（高通）滤波器、巴特沃斯低通（高通）滤波器、高斯低通（高通）滤波器实现对lena.bmp进行低通和高通滤波处理,并对实验结果进行分析。
+
+提高题：自编实现快速傅里叶变换函数fft2（），实现对一幅灰度图像实现傅里叶变换。
+
+这里待补充
